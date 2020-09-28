@@ -40,7 +40,7 @@ for item_single in list_All_ans:
         for i in range(5,16) :
             number_all.append(number[i])
         # print(number_one)
-# print(number_one)     #<<<所有班次一的時間表
+print(number_one)     #<<<所有班次一的時間表
 print(number_all)     #<<<所有班次的時間表
 
 

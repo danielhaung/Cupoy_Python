@@ -42,28 +42,47 @@ d = dict(xmltodict.parse(xml))
 datasetDescription = d['cwbopendata']['dataset']['locations']['location']
 datetime = datasetDescription[0]['weatherElement'][0]['time'][1]['dataTime']
 Temp = datasetDescription[0]['weatherElement'][0]['time'][1]['elementValue']["value"]
+
 list_all = []
 list_firstTimeTemp= []
+list_firstTimeTemp_1 = []
 i = 0
+j= 0
 while True:
     try:
         i+=1
         list_all.append(datasetDescription[i]['locationName'])
         list_firstTimeTemp.append([datasetDescription[i]['weatherElement'][0]['time'][0]['dataTime'],datasetDescription[i]['weatherElement'][0]['time'][0]['elementValue']["value"]])
+        
     except IndexError:
         print("搜尋完畢")
         i-=1
         break
-    
+
+    try:
+        j+=1
+        list_all.append(datasetDescription[j]['locationName'])
+        list_firstTimeTemp_1.append([datasetDescription[0]['weatherElement'][0]['time'][j]['dataTime'],datasetDescription[0]['weatherElement'][0]['time'][j]['elementValue']["value"]])
+        
+    except IndexError:
+        print("同一區每時段溫度搜尋完畢")
+        j-=1
+        break
+
+
 # print(list_all,"共"+str(i)+"區")
-print(list_firstTimeTemp)
+
 
 ##############################################
 # 2. 請取出每一個地區所記錄的第一個時間點跟溫度 #
 ##############################################
+# print(list_firstTimeTemp)
 
 
 
 
-
+##############################################
+# 2. 請取出第一個地區所記錄的每一個時間點跟溫度 #
+##############################################
+print(list_firstTimeTemp_1)
 

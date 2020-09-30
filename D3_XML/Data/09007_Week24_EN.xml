@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cwbopendata xmlns="urn:cwb:gov:tw:cwbcommon:0.1">
-  <identifier>2d05f85a-7b38-4298-8a98-5eef7fb60e59</identifier>
+  <identifier>95d07e08-016f-4c57-8b9e-3d2c477fc53b</identifier>
   <sender>weather@cwb.gov.tw</sender>
-  <sent>2020-09-29T12:20:34+08:00</sent>
+  <sent>2020-09-30T12:20:22+08:00</sent>
   <status>Actual</status>
   <scope>Public</scope>
   <msgType>Issue</msgType>
@@ -12,12 +12,12 @@
     <datasetInfo>
       <datasetDescription>Seven Days Weather Forecast of 368 townships</datasetDescription>
       <datasetLanguage>EN</datasetLanguage>
-      <issueTime>2020-09-29T11:00:00+08:00</issueTime>
+      <issueTime>2020-09-30T11:00:00+08:00</issueTime>
       <validTime>
-        <startTime>2020-09-29T12:00:00+08:00</startTime>
-        <endTime>2020-10-07T11:00:00+08:00</endTime>
+        <startTime>2020-09-30T12:00:00+08:00</startTime>
+        <endTime>2020-10-08T11:00:00+08:00</endTime>
       </validTime>
-      <update>2020-09-29T12:20:34+08:00</update>
+      <update>2020-09-30T12:20:22+08:00</update>
     </datasetInfo>
     <locations>
       <locationsName>Lienchiang County</locationsName>
@@ -30,15 +30,7 @@
           <elementName>T</elementName>
           <description>average of temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>23</value>
@@ -85,23 +77,23 @@
               <measures>C</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>21</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>Td</elementName>
           <description>average of dew point temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>19</value>
+              <value>18</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -125,7 +117,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>20</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -133,7 +125,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>21</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -142,6 +134,14 @@
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
               <value>20</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>18</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -150,18 +150,10 @@
           <elementName>RH</elementName>
           <description>average of relative humidity</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>82</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>78</value>
+              <value>75</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -169,7 +161,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>80</value>
+              <value>82</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -177,7 +169,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>83</value>
+              <value>85</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -185,7 +177,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>89</value>
+              <value>83</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -193,13 +185,21 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>90</value>
+              <value>86</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>87</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
             <elementValue>
               <value>84</value>
               <measures>%</measures>
@@ -210,15 +210,7 @@
           <elementName>MaxT</elementName>
           <description>maximum temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>24</value>
@@ -230,6 +222,126 @@
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
               <value>24</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-02T00:00:00+08:00</startTime>
+            <endTime>2020-10-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>25</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-03T00:00:00+08:00</startTime>
+            <endTime>2020-10-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>25</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-04T00:00:00+08:00</startTime>
+            <endTime>2020-10-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>25</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-05T00:00:00+08:00</startTime>
+            <endTime>2020-10-06T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>23</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>MinT</elementName>
+          <description>minimum temperature</description>
+          <time>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
+            <endTime>2020-10-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-01T00:00:00+08:00</startTime>
+            <endTime>2020-10-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-02T00:00:00+08:00</startTime>
+            <endTime>2020-10-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>21</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-03T00:00:00+08:00</startTime>
+            <endTime>2020-10-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-04T00:00:00+08:00</startTime>
+            <endTime>2020-10-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-05T00:00:00+08:00</startTime>
+            <endTime>2020-10-06T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>21</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>MaxAT</elementName>
+          <description>maximum athletic temperature</description>
+          <time>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
+            <endTime>2020-10-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>23</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-01T00:00:00+08:00</startTime>
+            <endTime>2020-10-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>23</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -261,127 +373,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>24</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>MinT</elementName>
-          <description>minimum temperature</description>
-          <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
               <value>22</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
-            <endTime>2020-10-01T00:00:00+08:00</endTime>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-01T00:00:00+08:00</startTime>
-            <endTime>2020-10-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>22</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-02T00:00:00+08:00</startTime>
-            <endTime>2020-10-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-03T00:00:00+08:00</startTime>
-            <endTime>2020-10-04T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>22</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-04T00:00:00+08:00</startTime>
-            <endTime>2020-10-05T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>22</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-05T00:00:00+08:00</startTime>
-            <endTime>2020-10-06T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>MaxAT</elementName>
-          <description>maximum athletic temperature</description>
-          <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
-            <endTime>2020-10-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-01T00:00:00+08:00</startTime>
-            <endTime>2020-10-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-02T00:00:00+08:00</startTime>
-            <endTime>2020-10-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>24</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-03T00:00:00+08:00</startTime>
-            <endTime>2020-10-04T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>25</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-04T00:00:00+08:00</startTime>
-            <endTime>2020-10-05T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-05T00:00:00+08:00</startTime>
-            <endTime>2020-10-06T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
+              <value>19</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -390,15 +390,7 @@
           <elementName>MinAT</elementName>
           <description>minimum athletic temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>20</value>
@@ -409,7 +401,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>19</value>
+              <value>18</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -417,7 +409,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>19</value>
+              <value>20</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -425,7 +417,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>21</value>
+              <value>20</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -433,7 +425,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>21</value>
+              <value>22</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -441,7 +433,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>17</value>
+              <value>16</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -450,15 +450,7 @@
           <elementName>MaxCI</elementName>
           <description>maximum comfort index</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>22</value>
@@ -477,7 +469,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>24</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -501,7 +493,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>22</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -510,18 +510,10 @@
           <elementName>MinCI</elementName>
           <description>minimum comfort index</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>21</value>
+              <value>22</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -561,7 +553,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>21</value>
+              <value>20</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>19</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -570,18 +570,10 @@
           <elementName>PoP24h</elementName>
           <description>24 hours probability of precipitation</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>30</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>50</value>
+              <value>30</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -597,7 +589,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value> </value>
+              <value>10</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -625,20 +617,20 @@
               <measures>%</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value> </value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WD</elementName>
           <description>wind direction</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>NE</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>NE</value>
@@ -673,7 +665,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>N</value>
+              <value>NE</value>
               <measures>16 directions</measures>
             </elementValue>
           </time>
@@ -685,27 +677,23 @@
               <measures>16 directions</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>NE</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WS</elementName>
           <description>maximum of wind speed</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>5</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>3</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>8</value>
+              <value>9</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -717,7 +705,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>9</value>
+              <value>10</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -741,7 +729,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>6</value>
+              <value>7</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -753,11 +741,11 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>8</value>
+              <value>6</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>5</value>
+              <value>4</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
@@ -773,31 +761,31 @@
               <measures>Beaufort</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>Wx</elementName>
           <description>weather</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>Cloudy with occasional rain</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>11</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly cloudy with occasional rain</value>
+              <value>Partly cloudy with occasional rain</value>
               <measures>define Wx text by self</measures>
             </elementValue>
             <elementValue>
-              <value>10</value>
+              <value>08</value>
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
@@ -861,22 +849,22 @@
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>Cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>07</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>UVI</elementName>
           <description>Ultraviolet index</description>
-          <time>
-            <startTime>2020-09-29T06:00:00+08:00</startTime>
-            <endTime>2020-09-29T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>4</value>
-              <measures>UV Index</measures>
-            </elementValue>
-            <elementValue>
-              <value>Moderate</value>
-              <measures>Exposure Level</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2020-09-30T06:00:00+08:00</startTime>
             <endTime>2020-09-30T18:00:00+08:00</endTime>
@@ -893,11 +881,11 @@
             <startTime>2020-10-01T06:00:00+08:00</startTime>
             <endTime>2020-10-01T18:00:00+08:00</endTime>
             <elementValue>
-              <value>5</value>
+              <value>6</value>
               <measures>UV Index</measures>
             </elementValue>
             <elementValue>
-              <value>Moderate</value>
+              <value>High</value>
               <measures>Exposure Level</measures>
             </elementValue>
           </time>
@@ -917,7 +905,7 @@
             <startTime>2020-10-03T06:00:00+08:00</startTime>
             <endTime>2020-10-03T18:00:00+08:00</endTime>
             <elementValue>
-              <value>7</value>
+              <value>6</value>
               <measures>UV Index</measures>
             </elementValue>
             <elementValue>
@@ -949,23 +937,27 @@
               <measures>Exposure Level</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T06:00:00+08:00</startTime>
+            <endTime>2020-10-06T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>3</value>
+              <measures>UV Index</measures>
+            </elementValue>
+            <elementValue>
+              <value>Moderate</value>
+              <measures>Exposure Level</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WeatherDescription</elementName>
           <description>weather description</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>Cloudy with occasional rain. Temperature between 22 and 23 centigrade. Comfortable. NE wind 5m/s. Chance of precipitation 30%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly cloudy with occasional rain. Temperature between 22 and 24 centigrade. Comfortable. NE wind 8m/s. Chance of precipitation 50%.</value>
+              <value>Partly cloudy with occasional rain. Temperature between 22 and 24 centigrade. Comfortable. NE wind 9m/s. Chance of precipitation 30%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -973,7 +965,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear. Temperature between 22 and 24 centigrade. Comfortable. NE wind 9m/s. Chance of precipitation 10%.</value>
+              <value>Mostly clear. Temperature between 22 and 24 centigrade. Comfortable. NE wind 10m/s. Chance of precipitation 10%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -981,7 +973,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear. Temperature between 21 and 25 centigrade. Comfortable. NE wind 7m/s. </value>
+              <value>Mostly clear. Temperature between 21 and 25 centigrade. Comfortable. NE wind 7m/s. Chance of precipitation 10%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -989,7 +981,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear. Temperature between 22 and 25 centigrade. Comfortable. NE wind 6m/s. </value>
+              <value>Mostly clear. Temperature between 22 and 25 centigrade. Comfortable. NE wind 7m/s. </value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -997,7 +989,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Partly cloudy with occasional rain. Temperature between 22 and 26 centigrade. Comfortable. N wind 8m/s. </value>
+              <value>Partly cloudy with occasional rain. Temperature between 22 and 25 centigrade. Comfortable. NE wind 6m/s. </value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1005,7 +997,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Cloudy with occasional rain. Temperature between 21 and 24 centigrade. Comfortable. NE wind 14m/s. </value>
+              <value>Cloudy with occasional rain. Temperature between 21 and 23 centigrade. Comfortable. NE wind 12m/s. </value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>Cloudy. Temperature between 20 and 22 centigrade. Cool~Comfortable. NE wind 12m/s. </value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1020,18 +1020,10 @@
           <elementName>T</elementName>
           <description>average of temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>24</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1071,7 +1063,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>22</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1080,18 +1080,10 @@
           <elementName>Td</elementName>
           <description>average of dew point temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>18</value>
+              <value>17</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1099,7 +1091,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>17</value>
+              <value>18</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1115,7 +1107,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>20</value>
+              <value>18</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1132,6 +1124,14 @@
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
               <value>19</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>16</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1140,18 +1140,10 @@
           <elementName>RH</elementName>
           <description>average of relative humidity</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>70</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>67</value>
+              <value>65</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -1159,7 +1151,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>69</value>
+              <value>70</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -1167,7 +1159,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>72</value>
+              <value>73</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -1175,7 +1167,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>78</value>
+              <value>71</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -1183,7 +1175,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>78</value>
+              <value>74</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -1191,7 +1183,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>73</value>
+              <value>75</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>72</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -1200,15 +1200,7 @@
           <elementName>MaxT</elementName>
           <description>maximum temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>24</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>24</value>
@@ -1251,7 +1243,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>25</value>
+              <value>23</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>23</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1260,18 +1260,10 @@
           <elementName>MinT</elementName>
           <description>minimum temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>23</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1304,66 +1296,6 @@
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
               <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-05T00:00:00+08:00</startTime>
-            <endTime>2020-10-06T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>22</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>MaxAT</elementName>
-          <description>maximum athletic temperature</description>
-          <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
-            <endTime>2020-10-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-01T00:00:00+08:00</startTime>
-            <endTime>2020-10-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-02T00:00:00+08:00</startTime>
-            <endTime>2020-10-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>24</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-03T00:00:00+08:00</startTime>
-            <endTime>2020-10-04T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>25</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-04T00:00:00+08:00</startTime>
-            <endTime>2020-10-05T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>26</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1375,20 +1307,80 @@
               <measures>C</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>21</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
-          <elementName>MinAT</elementName>
-          <description>minimum athletic temperature</description>
+          <elementName>MaxAT</elementName>
+          <description>maximum athletic temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
+            <endTime>2020-10-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>23</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-01T00:00:00+08:00</startTime>
+            <endTime>2020-10-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>23</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-02T00:00:00+08:00</startTime>
+            <endTime>2020-10-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>25</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-03T00:00:00+08:00</startTime>
+            <endTime>2020-10-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>25</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-04T00:00:00+08:00</startTime>
+            <endTime>2020-10-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>26</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-05T00:00:00+08:00</startTime>
+            <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
               <value>22</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>19</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>MinAT</elementName>
+          <description>minimum athletic temperature</description>
+          <time>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>20</value>
@@ -1431,7 +1423,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>17</value>
+              <value>16</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1440,15 +1440,7 @@
           <elementName>MaxCI</elementName>
           <description>maximum comfort index</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>22</value>
@@ -1475,7 +1467,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>24</value>
+              <value>23</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1491,7 +1483,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>24</value>
+              <value>23</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>21</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1500,18 +1500,10 @@
           <elementName>MinCI</elementName>
           <description>minimum comfort index</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>21</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1535,7 +1527,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>21</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1551,7 +1543,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>21</value>
+              <value>20</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1560,18 +1560,10 @@
           <elementName>PoP24h</elementName>
           <description>24 hours probability of precipitation</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>30</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>50</value>
+              <value>30</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -1587,7 +1579,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value> </value>
+              <value>10</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -1615,20 +1607,20 @@
               <measures>%</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value> </value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WD</elementName>
           <description>wind direction</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>NE</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>NE</value>
@@ -1663,7 +1655,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>N</value>
+              <value>NE</value>
               <measures>16 directions</measures>
             </elementValue>
           </time>
@@ -1675,24 +1667,20 @@
               <measures>16 directions</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>NE</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WS</elementName>
           <description>maximum of wind speed</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>5</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>3</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>8</value>
@@ -1731,7 +1719,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>6</value>
+              <value>7</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -1743,7 +1731,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>7</value>
+              <value>6</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -1763,31 +1751,31 @@
               <measures>Beaufort</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>Wx</elementName>
           <description>weather</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>Cloudy with occasional rain</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>11</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly cloudy with occasional rain</value>
+              <value>Partly cloudy with occasional rain</value>
               <measures>define Wx text by self</measures>
             </elementValue>
             <elementValue>
-              <value>10</value>
+              <value>08</value>
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
@@ -1795,11 +1783,11 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear</value>
+              <value>Partly clear</value>
               <measures>define Wx text by self</measures>
             </elementValue>
             <elementValue>
-              <value>02</value>
+              <value>03</value>
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
@@ -1851,22 +1839,22 @@
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>Cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>07</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>UVI</elementName>
           <description>Ultraviolet index</description>
-          <time>
-            <startTime>2020-09-29T06:00:00+08:00</startTime>
-            <endTime>2020-09-29T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>5</value>
-              <measures>UV Index</measures>
-            </elementValue>
-            <elementValue>
-              <value>Moderate</value>
-              <measures>Exposure Level</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2020-09-30T06:00:00+08:00</startTime>
             <endTime>2020-09-30T18:00:00+08:00</endTime>
@@ -1883,11 +1871,11 @@
             <startTime>2020-10-01T06:00:00+08:00</startTime>
             <endTime>2020-10-01T18:00:00+08:00</endTime>
             <elementValue>
-              <value>5</value>
+              <value>6</value>
               <measures>UV Index</measures>
             </elementValue>
             <elementValue>
-              <value>Moderate</value>
+              <value>High</value>
               <measures>Exposure Level</measures>
             </elementValue>
           </time>
@@ -1895,11 +1883,11 @@
             <startTime>2020-10-02T06:00:00+08:00</startTime>
             <endTime>2020-10-02T18:00:00+08:00</endTime>
             <elementValue>
-              <value>5</value>
+              <value>6</value>
               <measures>UV Index</measures>
             </elementValue>
             <elementValue>
-              <value>Moderate</value>
+              <value>High</value>
               <measures>Exposure Level</measures>
             </elementValue>
           </time>
@@ -1907,7 +1895,7 @@
             <startTime>2020-10-03T06:00:00+08:00</startTime>
             <endTime>2020-10-03T18:00:00+08:00</endTime>
             <elementValue>
-              <value>7</value>
+              <value>6</value>
               <measures>UV Index</measures>
             </elementValue>
             <elementValue>
@@ -1939,23 +1927,27 @@
               <measures>Exposure Level</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T06:00:00+08:00</startTime>
+            <endTime>2020-10-06T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>3</value>
+              <measures>UV Index</measures>
+            </elementValue>
+            <elementValue>
+              <value>Moderate</value>
+              <measures>Exposure Level</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WeatherDescription</elementName>
           <description>weather description</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>Cloudy with occasional rain. Temperature between 23 and 24 centigrade. Comfortable. NE wind 5m/s. Chance of precipitation 30%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly cloudy with occasional rain. Temperature between 22 and 24 centigrade. Comfortable. NE wind 8m/s. Chance of precipitation 50%.</value>
+              <value>Partly cloudy with occasional rain. Temperature between 23 and 24 centigrade. Comfortable. NE wind 8m/s. Chance of precipitation 30%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1963,7 +1955,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear. Temperature between 23 and 24 centigrade. Comfortable. NE wind 9m/s. Chance of precipitation 10%.</value>
+              <value>Partly clear. Temperature between 23 and 24 centigrade. Comfortable. NE wind 9m/s. Chance of precipitation 10%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1971,7 +1963,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear. Temperature between 22 and 25 centigrade. Comfortable. NE wind 7m/s. </value>
+              <value>Mostly clear. Temperature between 22 and 25 centigrade. Comfortable. NE wind 7m/s. Chance of precipitation 10%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1979,7 +1971,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear. Temperature between 23 and 25 centigrade. Comfortable. NE wind 6m/s. </value>
+              <value>Mostly clear. Temperature between 23 and 25 centigrade. Comfortable. NE wind 7m/s. </value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1987,7 +1979,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Partly cloudy with occasional rain. Temperature between 23 and 26 centigrade. Comfortable. N wind 7m/s. </value>
+              <value>Partly cloudy with occasional rain. Temperature between 23 and 26 centigrade. Comfortable. NE wind 6m/s. </value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1995,7 +1987,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Cloudy with occasional rain. Temperature between 22 and 25 centigrade. Comfortable. NE wind 14m/s. </value>
+              <value>Cloudy with occasional rain. Temperature between 21 and 23 centigrade. Comfortable. NE wind 12m/s. </value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>Cloudy. Temperature between 21 and 23 centigrade. Comfortable. NE wind 12m/s. </value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2010,15 +2010,7 @@
           <elementName>T</elementName>
           <description>average of temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>24</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>24</value>
@@ -2061,7 +2053,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>24</value>
+              <value>23</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2070,18 +2070,10 @@
           <elementName>Td</elementName>
           <description>average of dew point temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>20</value>
+              <value>19</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2105,7 +2097,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>21</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2125,23 +2117,23 @@
               <measures>C</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>RH</elementName>
           <description>average of relative humidity</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>83</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>78</value>
+              <value>75</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -2149,7 +2141,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>79</value>
+              <value>81</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -2157,7 +2149,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>83</value>
+              <value>84</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -2165,7 +2157,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>90</value>
+              <value>83</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -2181,6 +2173,14 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
+              <value>87</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
               <value>85</value>
               <measures>%</measures>
             </elementValue>
@@ -2190,15 +2190,7 @@
           <elementName>MaxT</elementName>
           <description>maximum temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>25</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>25</value>
@@ -2241,7 +2233,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>26</value>
+              <value>24</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>23</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2250,18 +2250,10 @@
           <elementName>MinT</elementName>
           <description>minimum temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>24</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2305,20 +2297,20 @@
               <measures>C</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>21</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>MaxAT</elementName>
           <description>maximum athletic temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>24</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>23</value>
@@ -2345,7 +2337,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>26</value>
+              <value>25</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2365,20 +2357,20 @@
               <measures>C</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>19</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>MinAT</elementName>
           <description>minimum athletic temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>21</value>
@@ -2397,7 +2389,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>20</value>
+              <value>21</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2413,7 +2405,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>21</value>
+              <value>23</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2421,7 +2413,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>18</value>
+              <value>17</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>16</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2430,15 +2430,7 @@
           <elementName>MaxCI</elementName>
           <description>maximum comfort index</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>24</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>23</value>
@@ -2449,7 +2441,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>24</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2457,7 +2449,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>24</value>
+              <value>25</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2481,7 +2473,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>25</value>
+              <value>23</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2490,18 +2490,10 @@
           <elementName>MinCI</elementName>
           <description>minimum comfort index</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>23</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2525,7 +2517,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>22</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2541,7 +2533,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>21</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>21</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2550,18 +2550,10 @@
           <elementName>PoP24h</elementName>
           <description>24 hours probability of precipitation</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>30</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>50</value>
+              <value>10</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -2569,7 +2561,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>10</value>
+              <value>0</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -2577,7 +2569,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value> </value>
+              <value>10</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -2600,6 +2592,14 @@
           <time>
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
+            <elementValue>
+              <value> </value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
             <elementValue>
               <value> </value>
               <measures>%</measures>
@@ -2610,15 +2610,7 @@
           <elementName>WD</elementName>
           <description>wind direction</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>NE</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>NE</value>
@@ -2665,24 +2657,20 @@
               <measures>16 directions</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>NE</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WS</elementName>
           <description>maximum of wind speed</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>6</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>4</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>9</value>
@@ -2697,7 +2685,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>9</value>
+              <value>10</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -2721,11 +2709,11 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>7</value>
+              <value>8</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>4</value>
+              <value>5</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
@@ -2733,11 +2721,11 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>9</value>
+              <value>7</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>5</value>
+              <value>4</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
@@ -2753,31 +2741,31 @@
               <measures>Beaufort</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>Wx</elementName>
           <description>weather</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>Cloudy with occasional rain</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>11</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly cloudy with occasional rain</value>
+              <value>Partly clear</value>
               <measures>define Wx text by self</measures>
             </elementValue>
             <elementValue>
-              <value>10</value>
+              <value>03</value>
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
@@ -2809,11 +2797,11 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Partly cloudy</value>
+              <value>Mostly clear</value>
               <measures>define Wx text by self</measures>
             </elementValue>
             <elementValue>
-              <value>04</value>
+              <value>02</value>
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
@@ -2841,22 +2829,22 @@
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>Cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>07</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>UVI</elementName>
           <description>Ultraviolet index</description>
-          <time>
-            <startTime>2020-09-29T06:00:00+08:00</startTime>
-            <endTime>2020-09-29T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>6</value>
-              <measures>UV Index</measures>
-            </elementValue>
-            <elementValue>
-              <value>High</value>
-              <measures>Exposure Level</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2020-09-30T06:00:00+08:00</startTime>
             <endTime>2020-09-30T18:00:00+08:00</endTime>
@@ -2873,11 +2861,11 @@
             <startTime>2020-10-01T06:00:00+08:00</startTime>
             <endTime>2020-10-01T18:00:00+08:00</endTime>
             <elementValue>
-              <value>5</value>
+              <value>6</value>
               <measures>UV Index</measures>
             </elementValue>
             <elementValue>
-              <value>Moderate</value>
+              <value>High</value>
               <measures>Exposure Level</measures>
             </elementValue>
           </time>
@@ -2897,7 +2885,7 @@
             <startTime>2020-10-03T06:00:00+08:00</startTime>
             <endTime>2020-10-03T18:00:00+08:00</endTime>
             <elementValue>
-              <value>7</value>
+              <value>6</value>
               <measures>UV Index</measures>
             </elementValue>
             <elementValue>
@@ -2909,7 +2897,7 @@
             <startTime>2020-10-04T06:00:00+08:00</startTime>
             <endTime>2020-10-04T18:00:00+08:00</endTime>
             <elementValue>
-              <value>7</value>
+              <value>6</value>
               <measures>UV Index</measures>
             </elementValue>
             <elementValue>
@@ -2929,23 +2917,27 @@
               <measures>Exposure Level</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T06:00:00+08:00</startTime>
+            <endTime>2020-10-06T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>3</value>
+              <measures>UV Index</measures>
+            </elementValue>
+            <elementValue>
+              <value>Moderate</value>
+              <measures>Exposure Level</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WeatherDescription</elementName>
           <description>weather description</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>Cloudy with occasional rain. Temperature between 23 and 25 centigrade. Comfortable. NE wind 6m/s. Chance of precipitation 30%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly cloudy with occasional rain. Temperature between 23 and 25 centigrade. Comfortable. NE wind 9m/s. Chance of precipitation 50%.</value>
+              <value>Partly clear. Temperature between 24 and 25 centigrade. Comfortable. NE wind 9m/s. Chance of precipitation 10%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2953,7 +2945,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear. Temperature between 23 and 25 centigrade. Comfortable. NE wind 9m/s. Chance of precipitation 10%.</value>
+              <value>Mostly clear. Temperature between 23 and 25 centigrade. Comfortable. NE wind 10m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2961,7 +2953,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear. Temperature between 23 and 26 centigrade. Comfortable. NE wind 8m/s. </value>
+              <value>Mostly clear. Temperature between 23 and 26 centigrade. Comfortable. NE wind 8m/s. Chance of precipitation 10%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2969,7 +2961,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Partly cloudy. Temperature between 23 and 26 centigrade. Comfortable. NE wind 7m/s. </value>
+              <value>Mostly clear. Temperature between 23 and 26 centigrade. Comfortable. NE wind 8m/s. </value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2977,7 +2969,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Partly cloudy with occasional rain. Temperature between 23 and 27 centigrade. Comfortable. NE wind 9m/s. </value>
+              <value>Partly cloudy with occasional rain. Temperature between 23 and 27 centigrade. Comfortable. NE wind 7m/s. </value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2985,7 +2977,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Cloudy with occasional rain. Temperature between 22 and 26 centigrade. Comfortable. NE wind 14m/s. </value>
+              <value>Cloudy with occasional rain. Temperature between 22 and 24 centigrade. Comfortable. NE wind 13m/s. </value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>Cloudy. Temperature between 21 and 23 centigrade. Comfortable. NE wind 12m/s. </value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3000,18 +3000,10 @@
           <elementName>T</elementName>
           <description>average of temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>24</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3043,7 +3035,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>25</value>
+              <value>24</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3051,7 +3043,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>22</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3060,18 +3060,10 @@
           <elementName>Td</elementName>
           <description>average of dew point temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>19</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>18</value>
+              <value>19</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3087,7 +3079,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>20</value>
+              <value>19</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3095,7 +3087,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>20</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3103,7 +3095,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>21</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3111,7 +3103,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>20</value>
+              <value>19</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>18</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3120,18 +3120,10 @@
           <elementName>RH</elementName>
           <description>average of relative humidity</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>76</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>77</value>
+              <value>76</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -3139,7 +3131,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>78</value>
+              <value>79</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -3147,7 +3139,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>78</value>
+              <value>76</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -3155,7 +3147,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>84</value>
+              <value>78</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -3163,7 +3155,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>83</value>
+              <value>82</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -3171,7 +3163,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>81</value>
+              <value>84</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>80</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -3180,15 +3180,7 @@
           <elementName>MaxT</elementName>
           <description>maximum temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>25</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>24</value>
@@ -3199,7 +3191,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>25</value>
+              <value>24</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3231,7 +3223,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>25</value>
+              <value>23</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>23</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3240,18 +3240,10 @@
           <elementName>MinT</elementName>
           <description>minimum temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>22</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>21</value>
+              <value>23</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3267,7 +3259,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>22</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3291,7 +3283,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>21</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>21</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3300,15 +3300,7 @@
           <elementName>MaxAT</elementName>
           <description>maximum athletic temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>24</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>22</value>
@@ -3319,7 +3311,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>22</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3327,7 +3319,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>24</value>
+              <value>25</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3335,7 +3327,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>26</value>
+              <value>25</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3343,7 +3335,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>27</value>
+              <value>28</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3355,20 +3347,20 @@
               <measures>C</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>19</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>MinAT</elementName>
           <description>minimum athletic temperature</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>19</value>
@@ -3395,7 +3387,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>21</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3403,7 +3395,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>20</value>
+              <value>22</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3415,20 +3407,20 @@
               <measures>C</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>16</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>MaxCI</elementName>
           <description>maximum comfort index</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>23</value>
@@ -3455,7 +3447,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>25</value>
+              <value>24</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3471,7 +3463,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>24</value>
+              <value>22</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3480,18 +3480,10 @@
           <elementName>MinCI</elementName>
           <description>minimum comfort index</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>21</value>
+              <value>22</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3507,7 +3499,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>21</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3523,7 +3515,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>23</value>
+              <value>22</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3535,23 +3527,23 @@
               <measures>NA</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>PoP24h</elementName>
           <description>24 hours probability of precipitation</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>10</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>20</value>
+              <value>10</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -3567,7 +3559,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value> </value>
+              <value>10</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -3590,6 +3582,14 @@
           <time>
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
+            <elementValue>
+              <value> </value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
             <elementValue>
               <value> </value>
               <measures>%</measures>
@@ -3600,15 +3600,7 @@
           <elementName>WD</elementName>
           <description>wind direction</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>NE</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>NE</value>
@@ -3635,7 +3627,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>E</value>
+              <value>NE</value>
               <measures>16 directions</measures>
             </elementValue>
           </time>
@@ -3655,24 +3647,20 @@
               <measures>16 directions</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>NE</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WS</elementName>
           <description>maximum of wind speed</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>7</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>4</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>9</value>
@@ -3687,7 +3675,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>9</value>
+              <value>10</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -3699,11 +3687,11 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>8</value>
+              <value>7</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>5</value>
+              <value>4</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
@@ -3711,7 +3699,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>6</value>
+              <value>7</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -3723,11 +3711,11 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>10</value>
+              <value>7</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>5</value>
+              <value>4</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
@@ -3743,24 +3731,24 @@
               <measures>Beaufort</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>Wx</elementName>
           <description>weather</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>Cloudy</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>07</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
               <value>Mostly clear</value>
@@ -3831,22 +3819,22 @@
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>Cloudy with occasional rain</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>11</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>UVI</elementName>
           <description>Ultraviolet index</description>
-          <time>
-            <startTime>2020-09-29T06:00:00+08:00</startTime>
-            <endTime>2020-09-29T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>6</value>
-              <measures>UV Index</measures>
-            </elementValue>
-            <elementValue>
-              <value>High</value>
-              <measures>Exposure Level</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2020-09-30T06:00:00+08:00</startTime>
             <endTime>2020-09-30T18:00:00+08:00</endTime>
@@ -3863,31 +3851,7 @@
             <startTime>2020-10-01T06:00:00+08:00</startTime>
             <endTime>2020-10-01T18:00:00+08:00</endTime>
             <elementValue>
-              <value>5</value>
-              <measures>UV Index</measures>
-            </elementValue>
-            <elementValue>
-              <value>Moderate</value>
-              <measures>Exposure Level</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-02T06:00:00+08:00</startTime>
-            <endTime>2020-10-02T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>5</value>
-              <measures>UV Index</measures>
-            </elementValue>
-            <elementValue>
-              <value>Moderate</value>
-              <measures>Exposure Level</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-10-03T06:00:00+08:00</startTime>
-            <endTime>2020-10-03T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>7</value>
+              <value>6</value>
               <measures>UV Index</measures>
             </elementValue>
             <elementValue>
@@ -3896,10 +3860,34 @@
             </elementValue>
           </time>
           <time>
+            <startTime>2020-10-02T06:00:00+08:00</startTime>
+            <endTime>2020-10-02T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>6</value>
+              <measures>UV Index</measures>
+            </elementValue>
+            <elementValue>
+              <value>High</value>
+              <measures>Exposure Level</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-03T06:00:00+08:00</startTime>
+            <endTime>2020-10-03T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>5</value>
+              <measures>UV Index</measures>
+            </elementValue>
+            <elementValue>
+              <value>Moderate</value>
+              <measures>Exposure Level</measures>
+            </elementValue>
+          </time>
+          <time>
             <startTime>2020-10-04T06:00:00+08:00</startTime>
             <endTime>2020-10-04T18:00:00+08:00</endTime>
             <elementValue>
-              <value>7</value>
+              <value>6</value>
               <measures>UV Index</measures>
             </elementValue>
             <elementValue>
@@ -3919,23 +3907,27 @@
               <measures>Exposure Level</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2020-10-06T06:00:00+08:00</startTime>
+            <endTime>2020-10-06T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>3</value>
+              <measures>UV Index</measures>
+            </elementValue>
+            <elementValue>
+              <value>Moderate</value>
+              <measures>Exposure Level</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WeatherDescription</elementName>
           <description>weather description</description>
           <time>
-            <startTime>2020-09-29T12:00:00+08:00</startTime>
-            <endTime>2020-09-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>Cloudy. Temperature between 22 and 25 centigrade. Comfortable. NE wind 7m/s. Chance of precipitation 10%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2020-09-30T00:00:00+08:00</startTime>
+            <startTime>2020-09-30T12:00:00+08:00</startTime>
             <endTime>2020-10-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear. Temperature between 21 and 24 centigrade. Comfortable. NE wind 9m/s. Chance of precipitation 20%.</value>
+              <value>Mostly clear. Temperature between 23 and 24 centigrade. Comfortable. NE wind 9m/s. Chance of precipitation 10%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3943,7 +3935,7 @@
             <startTime>2020-10-01T00:00:00+08:00</startTime>
             <endTime>2020-10-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear. Temperature between 22 and 25 centigrade. Comfortable. NE wind 9m/s. Chance of precipitation 0%.</value>
+              <value>Mostly clear. Temperature between 22 and 24 centigrade. Comfortable. NE wind 10m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3951,7 +3943,7 @@
             <startTime>2020-10-02T00:00:00+08:00</startTime>
             <endTime>2020-10-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear. Temperature between 23 and 26 centigrade. Comfortable. NE wind 8m/s. </value>
+              <value>Mostly clear. Temperature between 22 and 26 centigrade. Comfortable. NE wind 7m/s. Chance of precipitation 10%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3959,7 +3951,7 @@
             <startTime>2020-10-03T00:00:00+08:00</startTime>
             <endTime>2020-10-04T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Mostly clear. Temperature between 23 and 26 centigrade. Comfortable. E wind 6m/s. </value>
+              <value>Mostly clear. Temperature between 23 and 26 centigrade. Comfortable. NE wind 7m/s. </value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3967,7 +3959,7 @@
             <startTime>2020-10-04T00:00:00+08:00</startTime>
             <endTime>2020-10-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Partly cloudy with occasional rain. Temperature between 23 and 27 centigrade. Comfortable. NE wind 10m/s. </value>
+              <value>Partly cloudy with occasional rain. Temperature between 23 and 27 centigrade. Comfortable. NE wind 7m/s. </value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -3975,7 +3967,15 @@
             <startTime>2020-10-05T00:00:00+08:00</startTime>
             <endTime>2020-10-06T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Cloudy with occasional rain. Temperature between 22 and 25 centigrade. Comfortable. NE wind 15m/s. </value>
+              <value>Cloudy with occasional rain. Temperature between 21 and 23 centigrade. Comfortable. NE wind 14m/s. </value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2020-10-06T00:00:00+08:00</startTime>
+            <endTime>2020-10-07T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>Cloudy with occasional rain. Temperature between 21 and 23 centigrade. Comfortable. NE wind 12m/s. </value>
               <measures>NA</measures>
             </elementValue>
           </time>

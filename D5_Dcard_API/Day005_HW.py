@@ -42,3 +42,4 @@ for d in data:
     likeCount_avage +=d['likeCount']
 
 print("平均回應數"+str(commentCount_avage/i),"平均按讚數",str(likeCount_avage/i))
+ 

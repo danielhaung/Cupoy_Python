@@ -21,6 +21,7 @@ ROBOTSTXT_OBEY = True
 FEED_FORMAT = 'csv'
 FEED_EXPORT_ENCODING = 'utf-8'
 FEED_URI = './output/ettoday.csv'
+LOG_FILE = './output/ettoday.log'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 

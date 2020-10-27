@@ -43,7 +43,8 @@
 2020-10-27 13:46:40 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
 2020-10-27 13:46:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/robots.txt> (referer: None)
 2020-10-27 13:46:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/news/20201004/1824032.html> (referer: None)
-2020-10-27 13:46:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ettoday.net/news/20201004/1824032.html>
+2020-10-27 13:46:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ettoday.net/news/20201004/1824032.html>
+
 {'content': '<p><img src="//cdn2.ettoday.net/images/5169/d5169418.jpg" '
             'alt="▲晚間8點20分的將軍港煙火秀將氣氛炒到最高點。（圖／台南觀光局提供）" width="600" '
             'height="450" title="▲晚間8點20分的將軍港煙火秀將氣氛炒到最高點。（圖／台南觀光局提供）"></p>',
